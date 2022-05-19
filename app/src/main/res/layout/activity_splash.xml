@@ -12,7 +12,7 @@
         android:layout_width="@dimen/splash_image_dimen"
         android:layout_height="@dimen/splash_image_dimen"
         android:scaleType="fitCenter"
-        android:src="@drawable/marvel_logo_uno"
+        android:src="@drawable/marvel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,5 +39,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/splash_text" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

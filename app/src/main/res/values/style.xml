@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
-    <item name="android:windowBackground">@drawable/marvel_logo_uno</item>
+    <item name="android:windowBackground">@drawable/marvel</item>
 </style>
     <style name="SplashTextView">
         <item name="android:fontFamily">sans-serif-black</item>
