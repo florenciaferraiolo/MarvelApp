@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/marvel_logo_image_view"
+        android:layout_width="@dimen/image_view_width_activity_splash"
+        android:layout_height="@dimen/image_view_height_activity_splash"
+        android:scaleType="fitCenter"
+        android:src="@drawable/marvel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        style="@style/TextViewLoadingSplashStyleActivitySplash"
+        android:id="@+id/loading_splash_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_view_margin_top_activity_splash"
+        android:text="@string/loading_splash_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/marvel_logo_image_view" />
+
+    <ProgressBar
+        style="@style/ProgressBarLoadingSplashStyleActivitySplash"
+        android:id="@+id/loading_splash_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/progress_bar_margin_top_activity_splash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loading_splash_text_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>
