@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_view_width_activity_splash">350dp</dimen>
+    <dimen name="image_view_height_activity_splash">350dp</dimen>
+
+    <dimen name="text_view_margin_top_activity_splash">8dp</dimen>
+    <dimen name="text_view_size_activity_splash">24sp</dimen>
+
+    <dimen name="progress_bar_margin_top_activity_splash">16dp</dimen>
+</resources>
