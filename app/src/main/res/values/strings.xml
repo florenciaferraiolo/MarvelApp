@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MarvelApp</string>
     <string name="loading_splash_text">Loading Super Heroes...</string>
+    <string name="tittle_text_main_activity">Welcome to Marvel App</string>
+    <string name="description_text_main_activity">In this app you will find your favourite SuperHeroes and theirs SuperPowers</string>
+    <string name="log_in_button_text_activity_main">Log In</string>
 </resources>

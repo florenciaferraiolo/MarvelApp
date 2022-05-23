@@ -13,4 +13,17 @@
         <item name="android:indeterminateTintMode">src_atop</item>
         <item name="android:indeterminate">true</item>
     </style>
+    <style name="ButtonLogInStyleActivityMain">
+        <item name="android:backgroundTint">@color/red_board_main_activity</item>
+    </style>
+    <style name="TextViewDescriptionStyleMainActivity">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/red_board_main_activity</item>
+        <item name="android:textSize">@dimen/text_view_description_size_main_activity</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="TextViewTittleStyleMainActivity" parent="TextViewDescriptionStyleMainActivity">
+        <item name="android:textSize">@dimen/text_view_tittle_size_main_activity</item>
+    </style>
+
 </resources>

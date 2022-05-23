@@ -7,4 +7,10 @@
     <dimen name="text_view_size_activity_splash">24sp</dimen>
 
     <dimen name="progress_bar_margin_top_activity_splash">16dp</dimen>
+
+    <dimen name="text_view_margin_top_main_activity">50dp</dimen>
+    <dimen name="button_margin_bottom_main_activity">100dp</dimen>
+    <dimen name="text_view_description_size_main_activity">20sp</dimen>
+    <dimen name="text_view_tittle_size_main_activity">30sp</dimen>
+
 </resources>
