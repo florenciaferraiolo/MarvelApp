@@ -13,4 +13,12 @@
     <dimen name="text_view_description_size_main_activity">20sp</dimen>
     <dimen name="text_view_tittle_size_main_activity">30sp</dimen>
 
+    <dimen name="card_view_height_character_item">90dp</dimen>
+    <dimen name="card_view_margin_character_item">8dp</dimen>
+    <dimen name="card_view_card_corner_radius_character_item">8dp</dimen>
+    <dimen name="card_view_card_elevation_character_item">8dp</dimen>
+    <dimen name="image_width_character_item">90dp</dimen>
+    <dimen name="image_height_character_item">90dp</dimen>
+    <dimen name="text_view_width_character_item">0dp</dimen>
+    <dimen name="text_view_padding_character_item">5dp</dimen>
 </resources>
