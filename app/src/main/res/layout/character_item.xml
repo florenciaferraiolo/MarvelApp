@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_view_height_character_item"
+    android:layout_margin="@dimen/card_view_margin_character_item"
+    cardView:cardCornerRadius="@dimen/card_view_card_corner_radius_character_item"
+    cardView:cardElevation="@dimen/card_view_card_elevation_character_item">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:scaleType="centerCrop"
+            android:layout_width="@dimen/image_width_character_item"
+            android:layout_height="@dimen/image_height_character_item"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/TextViewNameCharacterItem"
+            android:layout_width="@dimen/text_view_width_character_item"
+            android:layout_height="match_parent"
+            cardView:layout_constraintBottom_toBottomOf="parent"
+            cardView:layout_constraintLeft_toRightOf="@id/image"
+            cardView:layout_constraintRight_toRightOf="parent"
+            cardView:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

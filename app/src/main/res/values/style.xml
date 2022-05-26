@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/marvel</item>
     </style>
+
     <style name="TextViewLoadingSplashStyleActivitySplash">
         <item name="android:fontFamily">sans-serif-black</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/text_view_size_activity_splash</item>
     </style>
+
     <style name="ProgressBarLoadingSplashStyleActivitySplash">
         <item name="android:indeterminateTint">@color/red</item>
         <item name="android:indeterminateTintMode">src_atop</item>
         <item name="android:indeterminate">true</item>
     </style>
+
     <style name="ButtonLogInStyleActivityMain">
         <item name="android:backgroundTint">@color/red_board_main_activity</item>
     </style>
+
     <style name="TextViewDescriptionStyleMainActivity">
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textColor">@color/red_board_main_activity</item>
         <item name="android:textSize">@dimen/text_view_description_size_main_activity</item>
         <item name="android:textAlignment">center</item>
     </style>
+
     <style name="TextViewTittleStyleMainActivity" parent="TextViewDescriptionStyleMainActivity">
         <item name="android:textSize">@dimen/text_view_tittle_size_main_activity</item>
     </style>
 
+    <style name="TextViewNameCharacterItem" parent="TextViewDescriptionStyleMainActivity">
+        <item name="android:lines">@integer/text_view_lines_character_item</item>
+        <item name="android:padding">@dimen/text_view_padding_character_item</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
 </resources>
